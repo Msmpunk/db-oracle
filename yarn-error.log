@@ -1,0 +1,46 @@
+Arguments: 
+  /home/mario/.nvm/versions/node/v12.16.2/bin/node /usr/share/yarn/bin/yarn.js add body-parser express methos-override oracledb
+
+PATH: 
+  /home/mario/.nvm/versions/node/v12.16.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-11-oracle/bin:/usr/lib/jvm/java-11-oracle/db/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/methos-override: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:310:20)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:310:20)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:416:28)
+      at IncomingMessage.emit (events.js:322:22)
+      at endReadableNT (_stream_readable.js:1187:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "back-end-global",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
